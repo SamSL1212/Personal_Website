@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website of San Luis</title>
+
+    <style>
+        body {
+            background-image: url("Images/MainPageBackground.jpg"); 
+            background-repeat: no-repeat;
+            background-size: 100%, 100%;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body a {
+            text-decoration: none;
+            color: black;
+        }
+        #pageTitle {
+            text-align: center;
+            font-size: 25px;
+            margin-top: 35px;
+        }
+        #upperTitle {
+            margin-top: 75px;
+            text-align: center;
+            font-size: 30px;
+            background-color: antiquewhite;
+            background-size: 100%, 100%;
+            border: 5px black solid;
+        }
+        #hobbyImages {
+            display: inline-flex;
+            gap: 165px;
+            margin-top: 15px;  
+        }
+        #hobbyImages img {
+            width: 500px;
+            height: 300px;
+            border: 5px black solid;
+        }
+        #hobbyTitle {
+            display: flex;
+            gap: 164px;
+            font-size: 20px;
+            position: absolute;
+        }
+        .drumText, .arknightsText, .musicText {
+            background-color: white;
+            border: 5px black solid;
+            padding: 25px 25px;
+            width: 450px;
+            text-align: center;
+        }
+    </style>
+    
+</head>
+<body>
+    
+    <div id="upperTitle">
+         <h1><a href="index.html">My Personal Website</a></h1>
+    </div>
+
+    <div id="pageTitle">
+        <h1>My Hobbies</h1>
+    </div>
+    
+    
+    <div id="hobbyImages">
+        <img src="Images/DrumPhoto.jpg" alt="Aesthetic Drumset">
+        <img src="Images/ArknightsPhoto.jpg" alt="Arknights Background">
+        <img src="Images/MusicListeningPhoto.jpg" alt="Listening To Music">
+    </div>
+    
+    <div id="hobbyTitle">
+        <h2 class="drumText">Drums</h2>
+        <h2 class="arknightsText">Arknights</h2>
+        <h2 class="musicText">Music</h2>
+    </div>
+   
+</body>
+</html>

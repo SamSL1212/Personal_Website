@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website of San Luis</title>
+
+    <style>
+        body {
+            background-image: url("Images/MainPageBackground.jpg"); 
+            background-repeat: no-repeat;
+            background-size: 100%, 100%;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body a {
+            text-decoration: none;
+            color: black;
+        }
+        #upperTitle {
+            margin-top: 75px;
+            text-align: center;
+            font-size: 30px;
+            background-color: antiquewhite;
+            background-size: 100%, 100%;
+            border: 5px black solid;
+        }
+        #pageBoxes {
+            display: flex;
+            gap: 250px;
+            justify-content: center;
+            font-size: 25px;
+            background-color: white;
+            border: 5px black solid;
+            margin-top: 150px;
+        }
+        
+        #instructions {
+            display: flex;
+            justify-content: center;
+        }
+        #instructions h1 {
+            margin-top: 150px;
+            font-size: 40px;
+            background-color: aliceblue;
+            border-width: 5px;
+            border-color: black;
+            border-style: solid;
+            text-align: center;
+            padding: 15px;
+        }
+        #instructions img {
+            width: 10%;
+            height: 10%;
+            margin-top: 75px;
+        }
+    </style>
+    
+</head>
+<body>
+    
+    <div id="upperTitle">
+         <h1><a href="index.html">My Personal Website</a></h1>
+    </div>
+    
+    <div id="pageBoxes">
+        <h2 class="aboutPage"><a href="aboutpage.html">About</a></h2>
+        <h2 class="gpPage"><a href="galleryportfoliopage.html">Gallery/Portfolio</a></h2>
+        <h2 class="hobbiesPage"><a href="hobbiespage.html">Hobbies</a></h2>
+        <h2 class="insightsPage"><a href="insightspage.html">Insights</a></h2>
+    </div>
+
+    <div id="instructions">
+        <h1>Please click the following categories above to explore this website!  
+        <br>Also click "My Personal Website" again to return to this page!
+        </h1>
+        <img src="Images/arrowUp.gif" alt="arrow">
+    </div>
+
+</body>
+</html>
